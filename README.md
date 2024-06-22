@@ -1,6 +1,6 @@
 ﻿# Speedometer
 
-## How to run projects
+## How to run project?
 1. Clone the repo.
 2. ```cd``` into both folders (frontend and backend) and run ```npm install```.
 3. Then in backend ternminal window, run ```npm run start```.
