@@ -1,5 +1,11 @@
 ﻿# Speedometer
 
+## How to run projects
+1. Clone the repo.
+2. ```cd``` into both folders (frontend and backend) and run ```npm install```.
+3. Then in backend ternminal window, run ```npm run start```.
+4. In frontend terminal window, run ```npm start```
+
 ## How to test?
 1. Login to psql shell
    ```
