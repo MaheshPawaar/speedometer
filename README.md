@@ -2,6 +2,14 @@
 
 ## How to test?
 1. Login to psql shell
+   ```
+     user: postgres
+     db: speedometer_data
+     password: password
+     host: localhost
+     port:5432
+   ```
+      
 2. chnage to speedometer_data db.
 3. Initialise trigger and notify function:
 
