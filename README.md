@@ -1,4 +1,4 @@
-﻿# Speedometer
+i﻿# Speedometer
 
 ## How to run project?
 1. Clone the repo.
@@ -23,11 +23,11 @@
 
    CREATE TABLE speed_data (
      id SERIAL PRIMARY KEY,
-     timestamp TIMESTAMPTZ DEFAULT         CURRENT_TIMESTAMP,
+     timestamp TIMESTAMPTZ DEFAUL CURRENT_TIMESTAMP,
   speed FLOAT
-);
+    );
 
-```
+   ```
 3. Initialise trigger and notify function:
 
 ```
