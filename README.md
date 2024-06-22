@@ -9,7 +9,7 @@ i﻿# Speedometer
 ## How to test?
 1. Login to psql shell
    ```
-     user: postgres
+     user: postgres
      password: password
      host: localhost
      port:5432
@@ -18,15 +18,12 @@ i﻿# Speedometer
 2. create speedometer_data db.
    ```
     CREATE DATABASE speedometer_db;
-
     \c speedometer_db
-
-   CREATE TABLE speed_data (
+    CREATE TABLE speed_data (
      id SERIAL PRIMARY KEY,
-     timestamp TIMESTAMPTZ DEFAUL CURRENT_TIMESTAMP,
-  speed FLOAT
+     timestamp TIMESTAMPTZ DEFAUL CURRENT_TIMESTAMP,  speed FLOAT
     );
-
+   
    ```
 3. Initialise trigger and notify function:
 
