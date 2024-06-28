@@ -1,4 +1,4 @@
-i﻿# Speedometer
+# Speedometer
 
 ## How to run project?
 1. Clone the repo.
